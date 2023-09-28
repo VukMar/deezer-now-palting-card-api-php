@@ -2,13 +2,6 @@
 // Read the access token from the JSON file
 $token_file = 'token.json';
 
-$origin = $_SERVER['HTTP_ORIGIN'];
-if ($origin === 'http://localhost:3000' || $origin === 'http://192.168.1.6:3000') {
-    header("Access-Control-Allow-Origin: " . $origin);
-} else if ($origin === 'https://www.vukmaric.rs' || $origin === 'https://vukmaric.rs') {
-    header("Access-Control-Allow-Origin: " . $origin);
-}
-
 if (file_exists($token_file)) {
     $token_data = json_decode(file_get_contents($token_file), true);
 

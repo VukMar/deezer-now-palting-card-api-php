@@ -1,7 +1,7 @@
 <?php
-$app_id = "635261";
-$app_secret = "1fded776787efcedf1aea1cf7daade91";
-$my_url = "https://backend.vukmaric.rs/api/deezer/listening.php";
+$app_id = "your-app_id";
+$app_secret = "your-app-secret";
+$my_url = "your-app-redirect-url";
 
 session_start();
 $code = $_REQUEST["code"];

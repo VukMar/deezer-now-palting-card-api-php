@@ -2,13 +2,14 @@ Deezer API Integration for User Listening History
 This repository contains PHP code for integrating the Deezer API into your web application to fetch and store a user's listening history. This README provides an overview of the code and how to set up and use it in your project.
 
 ## Table of Contents
-[Overview]
-[Prerequisites]
-[Installation]
-[Usage]
-[File Descriptions]
-[Contributing]
-[License]
+
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Descriptions](#file-descriptions)
+- [Contributing](#contributing)
+- [License](#license)
 ## Overview
 This PHP code allows you to integrate the Deezer API into your web application to retrieve a user's listening history and store it in a JSON file. The code is divided into two parts:
 

@@ -1,6 +1,8 @@
 # Deezer API Integration for User Listening History
 This repository contains PHP code for integrating the Deezer API into your web application to fetch and store a user's listening history. This README provides an overview of the code and how to set up and use it in your project.
 
+You can read and learn how to create your own ap and api on my [blog](https://vukmaric.rs/Blog/Deezer%20App%20API%20-%20Now%20Playing%20Card)! 👈
+
 ## Table of Contents
 
 - [Overview](#overview)
